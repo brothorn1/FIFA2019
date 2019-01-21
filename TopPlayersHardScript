@@ -1,5 +1,5 @@
 #Load data via file.choose function
-Fifa_Data <- read.table(file.choose(), header = TRUE, row.names = TRUE, sep = ",")
+Fifa_Data <- read.table(file.choose(), header = TRUE, sep = ",")
 
 #View Fifa df
 View(Fifa_Data)
